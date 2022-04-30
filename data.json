@@ -1,0 +1,46 @@
+{
+    "data": {
+      "cpl_product": [
+        {
+          "product_id": 100,
+          "cpl_status": 1,
+          "shipper_services": [1, 2]
+        }
+      ],
+      "shipper_list": [
+        {
+          "header": "Antar ke Kantor Agen",
+          "description": "Bawa pesanan ke kantor agen terdekat dan minta resi dari petugas.",
+          "shipper": [
+            {
+              "shipper_id": 1,
+              "shipper_name": "JNE",
+              "shipper_product": [
+                {
+                  "shipper_product_id": 1,
+                  "shipper_product_name": "Reguler",
+                  "ui_hidden": false
+                },
+                {
+                  "shipper_product_id": 2,
+                  "shipper_product_name": "OKE",
+                  "ui_hidden": false
+                },
+                {
+                  "shipper_product_id": 6,
+                  "shipper_product_name": "YES",
+                  "ui_hidden": false
+                },
+                {
+                  "shipper_product_id": 22,
+                  "shipper_product_name": "Trucking",
+                  "ui_hidden": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "errors": []
+  }
